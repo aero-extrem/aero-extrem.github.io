@@ -1,3 +1,8 @@
+---
+title: Phasen
+permalink: /phasen/
+---
+
 ### Phasen
 
 | Fertig am  | Phase           |
