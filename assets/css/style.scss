@@ -1,0 +1,43 @@
+---
+---
+
+/**
+The MIT License (MIT)
+
+Copyright (c) 2013 MATT GRAHAM
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+*/
+
+@import "{{ site.theme }}";
+
+#topnav { z-index: 100; left: 0; bottom: 0; height: 60px; width: 100%; background: url(../images/nav-bg.gif) #353535; border-bottom: 4px solid #434343; box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25); }
+#topnav nav { max-width: 650px; width: 100%; padding: 0 0; margin: 0 auto; }
+#topnav nav li { font-family: 'OpenSansLight', "Helvetica Neue", Helvetica, Arial, sans-serif; font-weight: normal; list-style: none; display: inline; color: white; line-height: 50px; text-shadow: 0 1px 0 rgba(0, 0, 0, 0.2); font-size: 14px; }
+#topnav nav li a { color: white; border: 1px solid #252525; background: linear_gradient(#2a2a29, #1c1c1c); border-radius: 2px; background-color: #353535; padding: 10px 12px; margin-top: 6px; line-height: 14px; font-size: 14px; display: inline-block; text-align: center; }
+#topnav nav li a:hover { background: linear_gradient(#749619, #527f0e); background-color: #659e10; border: 1px solid #527f0e; box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.2), 0 1px 0 transparent; }
+#topnav nav li.fork { float: left; margin-left: 0px; }
+#topnav nav li.downloads { float: right; margin-left: 6px; }
+#topnav nav li.title { float: right; margin-right: 10px; font-size: 11px; }
+
+@media print, screen and (max-width: 480px) { #topnav { margin-top: -20px; }
+  section { margin-top: 40px; }
+  nav { display: none; } }
+
+section { margin-top: 0; }
