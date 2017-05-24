@@ -3,7 +3,7 @@ title: Pflichtenheft
 permalink: /pflichtenheft/
 ---
 
-### Inhaltsverzeichnis
+## Inhaltsverzeichnis
 
 1. Zielbestimmungen
     1. Musskriterien
@@ -22,6 +22,26 @@ permalink: /pflichtenheft/
     3. Datenbankanbindung
 5. Benutzeroberfläche
     1. Hauptmenü
-    2. Flugsimulation
+    2. Flugsimulation (Overlay)
+    3. Flugsimulation (Menü)
+
+### 1. Zielbestimmungen
+
+#### 1.1. Musskriterien
+* Physikbasierte Bewegung im dreidimensionalen Raum
+* Kollisionserkennung
+* Umwelteinflüsse
+* SQL-Anbindung
+
+#### 1.2. Wunschkriterien
+* Realitätsgetreue 3D-Modelle
+* Effekte
+* Ausfälle
+
+#### 1.3. Abgrenzungskriterien
+* Keine Militärsimulation
+* Keine Mehrspielerfunktion
+* Keine Umwelteinflüsse
+
 
 ~ TODO ~
