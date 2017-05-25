@@ -38,7 +38,6 @@ permalink: /pflichtenheft/
     [5.1.]: #51-hauptmenü
     [5.2.]: #52-flugsimulation
     [5.3.]: #53-flugsimulation-menü
-    [todo]: #-todo-
 
 ## 1. Zielbestimmungen
 
@@ -216,14 +215,22 @@ Die Benutzeroberfläche setzt sich aus drei wesentlichen Teilen zusammen.
 Das Hauptmenü ist der Startbildschirm des Programms. Hier konfiguriert der
 Benutzer das Programm und startet Simulationen.
 
+Beispiel-Layout:
+
+![Hauprtmenü](/assets/img/proto_hauptmenü.png)
+
 ### 5.2. Flugsimulation
 
 Die Flugsimulation ist der zentrale Teil des Programms.  
+
+Sie besteht aus zwei Teilen, der 3D-Anzeige und dem Overlay, das über der
+3D-Anzeige zu sehen ist. Im Overlay sieht der Benutzer seine Eingaben.
 
 ### 5.3. Flugsimulation (Menü)
 
 Das Menü der Flugsimulation pausiert die Simulation und lässt den Benutzer
 die Simulation beenden und grobe Einstellungen vornehmen.
 
-###### ~ TODO ~
-Dieser Bereich des Pflichtenhefts ist noch in Bearbeitung.
+Beispiel-Layout:
+
+![Flugsimulation-Menü](/assets/img/proto_ingamemenü.png)
