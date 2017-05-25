@@ -103,7 +103,7 @@ Auf folgender Software basiert _Aero EXTREM_.
 
 * Runtime: [Java SE 1.7+](https://www.java.com/de/) 
 
-  Das Produkt läuft auf der Java Virtual Machine. Sie ist wird nicht mit dem
+  Das Produkt läuft auf der Java Virtual Machine. Sie wird nicht mit dem
   Projekt geliefert.
 
 * Grafik: [LWJGL](https://www.lwjgl.org)
@@ -202,8 +202,8 @@ Aerodynamik simuliert werden: Masse, Schub, Luftwiderstand und Lift.
 
 ### 4.2. Datenbankanbindung
 
-Per SQLite werden alle benutzerdefinierten Variablen gespeichert, sodass die
-Konfiguration des Programms sich nicht durch einen Neustart verändert.
+Per SQLite werden alle benutzerdefinierten Variablen gespeichert, sodass sich 
+die Konfiguration des Programms nicht durch einen Neustart verändert.
 Außerdem gibt es eine Funktion, Flugrouten aufzuzeichnen und abzuspielen.
 Diese werden mit SQL hinterlegt.
 
