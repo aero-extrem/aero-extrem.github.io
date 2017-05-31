@@ -217,7 +217,7 @@ Benutzer das Programm und startet Simulationen.
 
 Beispiel-Layout:
 
-![Hauprtmenü](/assets/img/proto_hauptmenü.png)
+![Hauptmenü](/assets/img/proto_hauptmenü.png)
 
 ### 5.2. Flugsimulation
 
