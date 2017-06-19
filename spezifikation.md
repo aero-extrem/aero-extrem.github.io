@@ -23,6 +23,9 @@ permalink: /spezifikation/
 	* [view/skybox][2.14.]
 3. [Diagramme][3.]
 	1. [Programmablauf][3.1.]
+4. [SQL][4.]
+	1. [Tabelle recordings][4.1.]
+	2. [Tabelle recording_X][4.2.]
 
 ## 1. Gliederung
 
@@ -273,7 +276,35 @@ In Aero EXTREM gibt es 4 Szenarien.
 
 ![Programmablauf](assets/img/dia_scenarios.png)
 
-(Teil 2 kommt noch)
+## 4. SQL Struktur
+
+![SQL Diagramm](assets/img/SQL.png)
+
+Wegen Performancegründen wird für jede neue Aufnahme eine neue Tabelle erstellt.
+Die Aufnahmen werden in `recordings` referenziert. Der Name ergibt sich folgendermaßen:
+
+`recording_` + _ID Feld aus `recordings`_
+
+Für das hintere wird _X_ als Platzhalter verwendet
+
+__Erklärung der Felder:__
+
+#### 4.1. `recordings`
+
+| Feld          | Bedeutung                        |
+| ------------- | -------------------------------- |
+| `RecordingID` | ID mit der gleichnamigen Tabelle |
+| `Time`        | Aufnahmedatum und -zeit          |
+
+#### 4.2. `recording_X`
+
+| Feld          | Bedeutung                            |
+| ------------- | ------------------------------------ |
+| `Step`        | Zeitschritt der Simulation           |
+| `FrameDelta`  | Vergangene Zeit seit letztem Schritt |
+| `PosX/Y/Z`    | Position des Flugzeugs               |
+| `RotX/Y/Z/W`  | Rotation des Flugzeugs (Quaternion)  |
+| `Deflect?`    | Auslenkung der Steuereingabe         |
 
 [1.]: #1-gliederung
 [2.]: #2-klassen
@@ -293,4 +324,6 @@ In Aero EXTREM gibt es 4 Szenarien.
 [2.14.]: #paket-viewskybox-himmel
 [3.]: #3-diagramme
 [3.1.]: #31-programmablauf
-
+[4.]: #4-sql-struktur
+[4.1.]: #41-recordings
+[4.2.]: #42-recording-x
